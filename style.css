@@ -1,4 +1,18 @@
+body{
+    font-family: 'Libre Baskerville', serif;
+}
 h1{
-    font-size: 20px;
-    font-family: sans-serif;
+    font-size: 40px;
+}
+.name-highlite{
+    color: rgb(162, 12, 237);
+}
+.half-width{
+    width: 40%;
+    float: left;
+    margin: 3%;
+    padding: 2%;
+}
+.half-width img{
+    width: 100%;
 }
