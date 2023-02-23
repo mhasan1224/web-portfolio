@@ -5,6 +5,9 @@ body{
 h1{
     font-size: 40px;
 }
+h2{
+    font-size: 35px;
+}
 .name-highlite{
     color: rgb(162, 12, 237);
 }
@@ -14,15 +17,20 @@ h1{
     margin: 3%;
     padding: 2%;
 }
+p{
+    text-align: justify;
+    color: dimgray;
+}
 .half-width img{
     width: 100%;
 }
 .top-banner{
     background-image: url("images/top-banner.png");
     background-repeat: no-repeat;
+    border: 1px solid red;
 }
 section{
-    height: 700px;
+    height: 670px;
 }
 .link-button{
     text-decoration: none;
@@ -32,16 +40,12 @@ section{
     color: white;
     font-weight: 700;
 }
-.second-half{
-    width: 40%;
-    float: right;
-    margin: 3%;
-    padding: 2%;
-}
-.second-half img{
-    width: 100%;
-}
-.bottom-banner{
-    background-image: url("images/top-banner.png");
+.dream-area{
+    background-image: url("images/dream-bg.png");
     background-repeat: no-repeat;
+    background-position: bottom right;
+    border: 1px solid red;
+}
+.experience-area{
+    border: 1px solid red;
 }
